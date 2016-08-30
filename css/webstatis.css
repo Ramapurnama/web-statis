@@ -1,0 +1,130 @@
+body{
+  background-image:url(wallpapers.jpeg);
+  }
+  *{margin: 0px; padding: 0px;}
+  header, footer, section, nav{display: block;}
+   .webstatis{
+    margin: 15px auto;
+    width: 980px;
+  }
+  #logo{
+    float: left;
+    height: 150px;
+    margin-right: 5px;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    }
+#judul{
+	 background-image:url(kucing.jpg);
+    height: 110px;
+    margin:10px auto -15px auto;
+    padding: 3px 0px 50px 0px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: 0 0 10px rgb(0,0,0) inset;
+}
+#judul h1{
+   font-size: 30px;
+   line-height: 38px;
+   font-weight: 500px;
+   color: blue;
+}
+#judul h2{
+   margin-top: 10px;
+   font-size: 25px;
+   font-weight:300px;
+   color: red;
+}
+
+/*Bagian menu-navigasi*/
+  nav ul{
+  background-image:url(wallpapers.jpeg);
+  width: 100%;
+  list-style: none;
+  position: relative;
+  display: inline-table;
+  padding: 0;
+  box-shadow: 0 0 10px rgb(0,0,0) inset;
+  }
+  nav ul:after{
+  content: "";
+  clear: both;
+  display: block;
+  }
+  nav ul li{
+  float: left;
+  }
+  nav ul li:hover{
+  background: black;
+  }
+  nav ul li:hover a{
+   color: orange;
+   }
+   nav ul li a{
+   display: block;
+   padding: 20px 30px;
+   color:  black;
+   text-decoration: none;
+   }
+   /*menghilangkan semua sub menu*/
+   nav ul ul{
+   display: none;
+   background: red;
+   border-radius: 0;
+   padding: 0;
+   position:  absolute;
+   top: 100%;
+   width: 250px;
+   }
+   /*munculkan submenu ketika didekati kursor*/
+   nav ul li:hover > ul{
+   display: block;
+   }
+   nav ul ul li{
+    float: none;
+    border-top: 1px solid #000000;
+    position: relative;
+   }
+   nav ul ul li a{
+    padding: 10px 20px;
+    color: #fff;
+    }
+    nav ul ul li a:hover{
+     background: #ffa500;
+    }
+    nav ul ul{
+    position: absolute;
+    left: 100%;
+    top: 0;
+    }
+    /*bagian isi*/
+    #konten{
+    background-image: url(wallpapers.jpeg);
+    float: left;
+    width: 200px;
+    box-shadow: 0 0 10px rgb(0,0,0) inset;
+    }
+    #sidebar{
+    background: white;
+    float: right;
+    width: 200px;
+    box-shadow: 0 0 10px rgb(0,0,0) inset;
+    }
+    /*bagian utama*/
+    #utama{
+    box-shadow: 0 0 10px rgb(0,0,0) inset;
+    	}
+    /*bagian bawah/footer*/
+    #bawah{
+    	background-image: url(wallpapers.jpeg);
+    	clear: both;
+    	width: 100%;
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+    	font-family: verdana;
+    	font-size: 15px;
+    	text-align: center;
+    	border-radius: 10px 10px 0 0;
+    	box-shadow: 0 0 10px rgb(0,0,0) inset;
+    	padding: 0;
+    	}
+    
+   
